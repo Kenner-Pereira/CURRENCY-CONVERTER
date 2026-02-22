@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Conversor de Moedas</title>
+</head>
+
+
+
+<body>
+    
+    
+
+    <div id="caixa1">
+
+        <img id="logo" src="./img/logo.gif" alt="dolar imagem">
+
+        <div id="caixa2" >
+
+            <label>Converter <b>de</b>
+            <select id="moedaescolhida" >
+                <option value="real" >R$ Real Brasileiro</option>
+                <option value="dolar" >US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra Esterlina</option>
+            </select>
+            </label>
+
+            <label>Converter <b>para</b>
+            <select class="currency-select" >
+                
+                <option value="dolar" >US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra Esterlina</option>
+                <option value="real" >R$ Real Brasileiro</option>
+            </select>
+            </label>
+
+            <label>
+                Valor
+                <input id="inputvalue" type="number" placeholder="Digite o valor a ser convertido">
+            </label>
+
+            <button id="convertbutton">Converter</button>
+
+
+        
+
+            <section>
+                <div class="currency-box" >
+
+                    <img id="imagemdigitada" src="./img/brasil.png" alt="brasil imagem">
+                    <p id="moedasuperior" class="currency" >Real Brasileiro</p>
+                    <p id="valordigitado" class="currency-value" >R$ 0,00</p>
+                </div>
+
+
+                <img class="arrow" src="./img/seta.png" alt="seta imagem">
+
+                <div class="currency-box" >
+                    <img id="imagemconvertida" src="./img/eua.png" alt="eua imagem">
+                    <p id="currencyname" class="currency" >Dólar</p>
+                    <p id="valorconvertido" class="currency-value" >US$ 0,00</p>
+
+
+                </div>
+
+
+            </section>
+
+
+        </div>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="./script.js"></script>
+
+
+</html>
